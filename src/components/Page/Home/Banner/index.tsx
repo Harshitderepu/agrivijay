@@ -49,15 +49,11 @@ const Banner: FC = () => {
             // height: `${platformSize?.height}px`,
           }}
         >
-          <img
-            src={"/Home/Banner/Background.png"}
-            alt={""}
-            className=" absolute z-10 size-full object-cover"
-          />
+         
           <img
             src={"/Home/Banner/Image.png"}
             alt={""}
-            className="absolute z-0 h-full w-full object-cover"
+            className="absolute z-0 h-full w-full   "
           />
         </div>
       </div>
@@ -74,7 +70,7 @@ const Banner: FC = () => {
         <CustomContainedButton
           textColor="text-blue_dianne"
           circleIconColor="bg-blue_dianne"
-          backgroundColor="bg-sunset_pearl"
+          backgroundColor="bg-green-600"
           text="Explore Now"
         />
       </div>

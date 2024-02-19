@@ -34,58 +34,23 @@ const Counter: FC = () => {
     setActiveStep(step);
   };
   return (
-    <div id={style.main}>
+    <div id={style.main} className="bg-green-600">
       <div className="mb-auto flex size-full flex-col p-10">
-        <div className="flex flex-col items-center">
-          <label className="font-Yellowtail text-3xl font-normal text-acapulco">
-            Testimonial
-          </label>
-          <label className="font-roboto text-[30px] font-extrabold text-blue_dianne">
-            What Our Customer Saying?
-          </label>
-          <div className="mt-[30px] flex flex-col items-center">
-            <Avatar src="/Home/Counter/avatar.jpg" className="size-[100px]" />
-            <div className="mt-3 flex flex-row">
-              {Array(5)
-                .fill(0)
-                .map((val, index) => {
-                  return (
-                    <FaStar
-                      className="size-[17px] text-sunset_pearl"
-                      key={index}
-                    />
-                  );
-                })}
-            </div>
-            <label className="text-center text-black_coral_pearl">
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been.
-            </label>
-            <div className="mt-5 flex size-fit flex-col items-center">
-              <div className="font-roboto text-[20px] font-semibold text-blue_dianne">
-                Sara Taylor
-              </div>
-              <div className="font-sans text-[18px] font-normal text-black_coral_pearl">
-                Consumer
-              </div>
-            </div>
+      <div className="flex justify-center px-4 py-2  ">
+            <iframe
+              width="1200"
+              height="560"
+              src="https://www.youtube.com/embed/E7wJTI-1dvQ"
+              title="YouTube video player"
+              allow="accelerometer; 
+              "
+            ></iframe>
           </div>
+        <div className="flex flex-col items-center">
+        
+       
         </div>
-        <div className="mt-[3%] flex flex-row justify-around">
-          {details.map((value, index) => (
-            <div key={index} className="flex flex-col items-center justify-center rounded-full border-4 border-acapulco">
-              <div className="m-1 flex size-28 xl:size-36 flex-col items-center justify-center rounded-full bg-alto p-2">
-                <div className="font-roboto text-[20px] xl:text-[25px] font-extrabold text-blue_dianne">
-                  {value.unit}
-                </div>
-                <div className="font-sans text-base font-semibold text-blue_dianne text-center">
-                  {value.text}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        
       </div>
       <img
       alt=""

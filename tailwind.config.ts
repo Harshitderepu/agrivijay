@@ -17,10 +17,10 @@ const config: Config = {
     },
     colors: {
       'transparent': 'transparent',
-      'blue_dianne': '#274C5B',
+      'blue_dianne': 'white',
       'acapulco': '#7EB693',
       'sunset_pearl': '#EFD372',
-      'black_coral_pearl': '#525C60',
+      'black_coral_pearl': '#292524',
       'alto': '#D4D4D4',
       'alabaster': '#F9F8F8',
       'saltpan': '#EFF6F1',

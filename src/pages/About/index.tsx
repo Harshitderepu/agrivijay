@@ -10,7 +10,7 @@ import {
 import { Newslatteer } from "@/components";
 const AboutPage: FC = () => {
   return (
-    <div className="flex flex-col min-h-screen h-full bg-white" id={style.main}>
+    <div className="flex flex-col min-h-screen h-full bg-green-600" id={style.main}>
       <Banner />
       <About />
       <WhyChoosUs />

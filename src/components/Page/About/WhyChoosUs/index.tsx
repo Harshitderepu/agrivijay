@@ -18,7 +18,7 @@ export const WhyChoosUs = () => {
     },
   ];
   return (
-    <div className="flex flex-col px-20 bg-stone-50 py-28">
+    <div className="flex flex-col px-20 bg-green-600 py-28">
       <div className="flex flex-row items-stretch gap-12">
         <div className="flex flex-col">
           <label className="font-yellowtail text-2xl font-normal text-acapulco">

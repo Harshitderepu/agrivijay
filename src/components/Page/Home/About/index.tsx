@@ -4,10 +4,10 @@ import { CustomContainedButton } from "@/components";
 import Image  from "next/image";
 const About: FC = () => {
   return (
-    <div id={style.main} className="bg-alabaster">
+    <div id={style.main} className="bg-green-600">
       <img alt="" src="/Home/About/image.png" className="size-[30%]"/>
       <div className="flex flex-col justify-center">
-        <div className="font-yellowtail text-2xl font-normal text-acapulco">
+        <div className="font-yellowtail text-2xl font-normal text-white">
           About Us
         </div>
         <div className="font-roboto text-xl font-extrabold text-blue_dianne">

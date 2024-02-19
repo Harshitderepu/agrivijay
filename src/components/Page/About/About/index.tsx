@@ -3,13 +3,16 @@ import { FC } from "react";
 
 export const About: FC = () => {
   return (
+    <section className="bg-green-600">
+
+    
     <div className="flex flex-row gap-x-10 px-12">
       <img src="/About/About/Image.png" className="size-[40%]" alt="" />
       <div className="flex flex-col items-start">
         <label className="font-yellowtail text-2xl text-acapulco">
           About us
         </label>
-        <label className="font-roboto text-4xl font-extrabold text-blue_dianne">
+        <label className="font-roboto text-4xl font-extrabold text-green-500">
           We do Creative Things for Success
         </label>
         <p className="font-sans text-lg font-normal text-gray-600 mt-3">
@@ -41,5 +44,6 @@ export const About: FC = () => {
         <CustomContainedButton backgroundColor="bg-blue_dianne" text="Explore More" textColor="text-white" circleIconColor="bg-slate_600"/>
       </div>
     </div>
+    </section>
   );
 };

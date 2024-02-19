@@ -12,7 +12,8 @@ const Footer: FC = () => {
     (key: number) => <FaPinterest key={key} />,
   ];
   return (
-    <div id={style.Footer}>
+    <div id={style.Footer}  className="bg-green-600">
+      
       <div className="flex flex-col gap-4 border-r-2 border-alto pr-[25px] text-right">
         <label className="font-roboto text-xl font-bold text-blue_dianne">
           Contact Us
@@ -46,7 +47,7 @@ const Footer: FC = () => {
         <div className="flex flex-row items-center gap-2">
           <img src="/Nav/Logo.png" className="w-7" alt="" />
           <label className="font-roboto text-2xl font-bold text-blue_dianne">
-            Organick
+            derepu
           </label>
         </div>
         <label className="mt-5 text-center font-sans font-normal text-black_coral_pearl">
@@ -58,7 +59,7 @@ const Footer: FC = () => {
             <Fragment key={index}>
               <IconButton
                 key={index}
-                className="bg-[#EFF6F1] p-6 text-[30px] text-blue_dianne"
+                className="bg-[#27c955] p-6 text-[30px] text-blue_dianne"
               >
                 {value(index)}
               </IconButton>

@@ -7,12 +7,12 @@ import Image from "next/image";
 
 const Nav: FC = () => {
   return (
-    <div className="flex w-full flex-row bg-white py-3 px-5">
+    <div className="flex w-full flex-row bg-green-600 py-3 px-5">
       <div className="flex flex-row items-center justify-between w-full">
         <div className="flex flex-row items-center gap-2 w-[150px]">
-          <img className=" size-[20%]" src="/Nav/Logo.png" alt="" />
+          <img className=" size-[90%]" src="/Nav/Logo.png" alt="" />
           <label className="font-roboto text-lg font-bold text-blue_dianne">
-            Organick
+            
           </label>
         </div>
         <div className="flex flex-row gap-x-5 mr-5">

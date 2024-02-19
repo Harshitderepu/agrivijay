@@ -4,7 +4,7 @@ export class HomeViewModel {
     productItemCard: ProductCardModel[] = [
         {
             "imageSrc": "/Home/Shop/image_1.png",
-            "productName": "Calabrese Broccoli",
+            "productName": "ELECTRIC",
             "currentPrice": "$13.00",
             "originalPrice": "$20.00",
             "rating": 5, // Rating not provided in the HTML
@@ -12,7 +12,7 @@ export class HomeViewModel {
         },
         {
             "imageSrc": "/Home/Shop/image_2.png",
-            "productName": "Fresh Banana Fruites",
+            "productName": "SOLAR",
             "currentPrice": "$14.00",
             "originalPrice": "$20.00",
             "rating": 5, // Rating not provided in the HTML
@@ -20,7 +20,7 @@ export class HomeViewModel {
         },
         {
             "imageSrc": "/Home/Shop/image_3.png",
-            "productName": "White Nuts",
+            "productName": "AGTECH",
             "currentPrice": "$15.00",
             "originalPrice": "$20.00",
             "rating": 5, // Rating not provided in the HTML
@@ -28,7 +28,7 @@ export class HomeViewModel {
         },
         {
             "imageSrc": "/Home/Shop/image_4.png",
-            "productName": "Vegan Red Tomato",
+            "productName": "BIOGAS",
             "currentPrice": "$17.00",
             "originalPrice": "$20.00",
             "rating": 5, // Rating not provided in the HTML
@@ -36,36 +36,13 @@ export class HomeViewModel {
         },
         {
             "imageSrc": "/Home/Shop/image_5.png",
-            "productName": "Mung Bean",
+            "productName": "ORGANIC",
             "currentPrice": "$11.00",
             "originalPrice": "$20.00",
             "rating": 5, // Rating not provided in the HTML
             "categoryTag": "Health"
         },
-        {
-            "imageSrc": "/Home/Shop/image_6.png",
-            "productName": "Brown Hazelnut",
-            "currentPrice": "$12.00",
-            "originalPrice": "$20.00",
-            "rating": 5, // Rating not provided in the HTML
-            "categoryTag": "Nuts"
-        },
-        {
-            "imageSrc": "/Home/Shop/image_7.png",
-            "productName": "Eggs",
-            "currentPrice": "$17.00",
-            "originalPrice": "$20.00",
-            "rating": 5, // Rating not provided in the HTML
-            "categoryTag": "Fresh"
-        },
-        {
-            "imageSrc": "/Home/Shop/image_8.png",
-            "productName": "Zelco Suji Elaichi Rusk",
-            "currentPrice": "$15.00",
-            "originalPrice": "$20.00",
-            "rating": 5, // Rating not provided in the HTML
-            "categoryTag": "Fresh"
-        }
+       
     ];
     offerData: ProductCardModel[] = [
         {
