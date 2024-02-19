@@ -12,7 +12,7 @@ const WhoWeAre: FC = () => {
               Eco Friendly
             </label>
             <label className="font-roboto text-3xl font-extrabold text-blue_dianne">
-              Econis is a Friendly
+              derepu is a Friendly
               <br />
               Organic Store
             </label>
